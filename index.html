@@ -156,6 +156,26 @@
         envelopeContainer.click();
       }
     });
+
+    <button onclick="shareWhatsApp()" class="btn">📲 Share Invite</button>
+
+function shareWhatsApp() {
+  const text =
+`✨ Ganapathi Homam Invitation ✨
+
+Chandni Indiraraj invites you to Ganapathi Homam.
+
+📅 25 June 2026
+⏰ 4:30 AM – 5:30 AM IST
+📍 Baashyaam Crown Residences, Koyambedu, Chennai
+
+🌐 View Invite:
+https://ajithmuthu.github.io/chandni-new-house/`;
+
+  const url = "https://wa.me/?text=" + encodeURIComponent(text);
+  window.open(url, "_blank");
+}
+
   </script>
 </body>
 </html>
