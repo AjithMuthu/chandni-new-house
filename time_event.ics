@@ -1,0 +1,23 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+BEGIN:VEVENT
+SUMMARY:Chandni's New House Ganapathy Homam Invitation
+DTSTART;TZID=Asia/Kolkata:20260625T043000
+DTEND;TZID=Asia/Kolkata:20260625T053000
+LOCATION:Flat No. 9-B15 Tower 9, 15th Floor, "B" Type Baashyaam "Crown Residences", Poonamallee High Road, Koyambedu, Chennai - 600 107
+DESCRIPTION:Join us in Blessing Our New Home with Ganapathi Homam.
+STATUS:CONFIRMED
+SEQUENCE:0
+BEGIN:VALARM
+TRIGGER:-P1D
+DESCRIPTION:Reminder - 24 hours before the event
+ACTION:DISPLAY
+END:VALARM
+BEGIN:VALARM
+TRIGGER:-PT8H
+DESCRIPTION:Reminder - 8 hours before the event
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
